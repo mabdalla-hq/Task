@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>تطبيق قائمة المهام</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>قائمة إنجاز المهمات</title>
   </head>
-  <body>
-    <h1>قائمة المهام اليومية</h1>
-    <input type="text" id="taskInput" placeholder="أدخل عنوان المهمة" />
+  <body class="body">
+    <h1 class="header">قائمة المهام اليومية</h1>
+    <input
+      type="text"
+      id="taskInput"
+      placeholder="أدخل عنوان المهمة"
+      class="input"
+    />
     <button onclick="addTask(document.getElementById('taskInput').value)">
       إضافة مهمة
     </button>
